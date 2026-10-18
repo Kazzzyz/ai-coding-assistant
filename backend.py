@@ -106,7 +106,7 @@ def llm_classification(query):
         return llm_code_explaination(query), "EXPLAIN"
 
     elif classification == "OTHER":
-        return "Topic is not Coding Related"
+        return "Topic is not Coding Related", "OTHER"
 
 
     
